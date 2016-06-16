@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 
 /**
+ * 迭代实现选择排序
  * @author Jedeft
  * @date 2016年6月16日 上午10:00:01
  */
