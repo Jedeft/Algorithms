@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 
 /**
- * µü´úÊµÏÖÑ¡ÔñÅÅĞò
+ * é€‰æ‹©æ’åºç®—æ³•ï¼ˆè¿­ä»£ï¼‰ï¼Œæ—¶é—´å¤æ‚åº¦ä¸ºÎ˜(nÂ²)
  * @author Jedeft
- * @date 2016Äê6ÔÂ16ÈÕ ÉÏÎç10:00:01
+ * @date 2016å¹´6æœˆ16æ—¥ ä¸Šåˆ10:15:28
  */
 public class Choice {
 	public static void main(String[] args) {

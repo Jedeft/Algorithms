@@ -3,15 +3,15 @@ package com.jedeft.sort;
 import java.util.Arrays;
 
 /**
- * ¶ş·Ö·¨²éÕÒÒÑÅÅĞòºÃµÄÊı×é
+ * äºŒåˆ†æ³•æŸ¥æ‰¾å·²æ’åºå¥½æ•°åˆ—ä¸­çš„å€¼ï¼ˆé€’å½’ï¼‰ï¼Œæ—¶é—´å¤æ‚åº¦ä¸ºÎ˜(nlg n)
  * @author Jedeft
- * @date 2016Äê6ÔÂ16ÈÕ ÉÏÎç10:07:48
+ * @date 2016å¹´6æœˆ16æ—¥ ä¸Šåˆ10:12:07
  */
 public class DichotomyFind {
 	
-	//µÚÒ»°æ×¾ÁÓ´úÂë
+	//ç¬¬ä¸€ç‰ˆæ‹™åŠ£ä»£ç 
 //	private static boolean find(Integer[] A, int p, int r, int num) {
-//		// Èç¹û¶ş·Ö·¨²éÕÒµ½×îºóÖ»ÁôÏÂÁ½¸öÊı£¬ÎŞ·¨¼ÌĞø¶ş·Ö£¬ÄÇÃ´°ÑÕâÁ½¸öÊı·Ö±ğºÍÄ¿±êÊı×Ö×ö±È½Ï
+		// å¦‚æœäºŒåˆ†æ³•æŸ¥æ‰¾åˆ°æœ€ååªç•™ä¸‹ä¸¤ä¸ªæ•°ï¼Œæ— æ³•ç»§ç»­äºŒåˆ†ï¼Œé‚£ä¹ˆæŠŠè¿™ä¸¤ä¸ªæ•°åˆ†åˆ«å’Œç›®æ ‡æ•°å­—åšæ¯”è¾ƒ
 //		if (r - p == 1) {
 //			return A[p] == num || A[r] == num ? true : false;
 //		} else {
@@ -26,7 +26,7 @@ public class DichotomyFind {
 //		}
 //	}
 	
-	//µÚ¶ş°æÏà¶ÔÓÅÑÅ´úÂë
+	//ç¬¬äºŒç‰ˆç›¸å¯¹ä¼˜é›…ä»£ç 
 	private static boolean find(Integer[] A, int p, int r, int num) {
 		if (p > r) {
 			return false;
